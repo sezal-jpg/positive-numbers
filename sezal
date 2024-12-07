@@ -1,0 +1,10 @@
+list1 = [5, -2, 8, 12, -15, 20, 30, -5, 10, 25]
+list2 = [1, 4, 7, 10, 13, 16, 19, 22, 25, 28]
+
+start_range = 1
+end_range = 30
+
+positive_numbers = [num for num in list1 + list2 if start_range <= num <= end_range and num > 0]
+
+print("Positive numbers between {} and {}:".format(start_range, end_range))
+print(positive_numbers)
